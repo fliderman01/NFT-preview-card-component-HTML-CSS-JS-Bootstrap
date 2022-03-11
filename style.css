@@ -12,21 +12,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 hr {
     background-color: hsl(215, 32%, 27%);
 }
 
-.main {
+main {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(216, 50%, 16%);
     width: 19em;
     padding: 1em 1em 0.5em 1em;
     border-radius: 1em;
     color: hsl(215, 51%, 70%);
-    position: absolute;
-    top: 10%;
 }
 
 .cubeImg {
@@ -61,6 +60,13 @@ hr {
 
   .color-overlay:hover {
     opacity: .4;
+    transition: 2s;
+    transition-timing-function: ease-in;
+  }
+
+  .line {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin: 1em 0;
   }
 
 .lower {
