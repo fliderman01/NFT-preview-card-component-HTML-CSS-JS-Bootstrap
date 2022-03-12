@@ -37,8 +37,8 @@ main {
 .eye {
     position: relative;
     left: 58%;
-    opacity: .9;
     display: none;
+    z-index: 1;
 }
 .cyan {
     width: 100%;
@@ -60,9 +60,9 @@ main {
 
   .color-overlay:hover {
     opacity: .4;
-    transition: 2s;
+    transition: .3s;
     transition-timing-function: ease-in;
-  }
+}
 
   .line {
     border-bottom: 1px solid hsl(215, 32%, 27%);
@@ -88,6 +88,7 @@ main {
 .same2:hover {
     color:hsl(178, 100%, 50%);
     cursor: pointer;
+    transition: .4s;
 }
 
 .etherum, .clock {
